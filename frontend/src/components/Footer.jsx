@@ -38,41 +38,40 @@ export default function Footer() {
         <div className="container">
           <div className="footer-grid">
             <div className="footer-about">
-              <h3>☀ Maa Agencies</h3>
+              <img src="/images/logo.png" alt="EKOSYS" style={{ height: '45px', marginBottom: '16px', objectFit: 'contain' }} />
               <p>Powering a Greener Tomorrow. We deliver end-to-end solar EPC solutions tailored for industrial, commercial, and institutional needs. Cut your energy costs and embrace sustainable power confidently.</p>
-              <p>📞 8757686826<br/>✉ reyesraghav@gmail.com<br/>📍 Hajipur, Vaishali, Bihar</p>
+              <p>📞 8757686826<br/>✉ ekosys.corp@gmail.com<br/>📍Hajipur, Vaishali, Bihar</p>
             </div>
             <div className="footer-links">
               <h4>Quick Links</h4>
               <Link to="/">Home</Link>
               <Link to="/about">About Us</Link>
               <Link to="/products">Products</Link>
-              <Link to="/solar-systems">Solar Systems</Link>
               <Link to="/subsidy">Govt Subsidy</Link>
-              <Link to="/calculator">Savings Calculator</Link>
+              <Link to="/installation">Installation</Link>
+              <Link to="/contact">Contact Us</Link>
             </div>
             <div className="footer-links">
               <h4>Our Products</h4>
+              <Link to="/products">On-Grid / Off-Grid / Hybrid</Link>
               <Link to="/products">Solar Street Lights</Link>
               <Link to="/products">Solar Water Heaters</Link>
-              <Link to="/products">Solar Atta Chakki</Link>
-              <Link to="/products">Online UPS</Link>
-              <Link to="/products">Servo Stabilizers</Link>
-              <Link to="/solar-systems">On-Grid / Off-Grid / Hybrid</Link>
+              <Link to="/products">Solar Water Pumps</Link>
+              <Link to="/products">Inverters & Batteries</Link>
+              <Link to="/products">UPS & Stabilizers</Link>
             </div>
             <div className="footer-links">
               <h4>Support</h4>
               <Link to="/contact">Contact Us</Link>
               <Link to="/installation">Installation Guide</Link>
-              <Link to="/blog">Solar Blog</Link>
-              <Link to="/calculator">ROI Calculator</Link>
+              <Link to="/subsidy">Subsidy Information</Link>
               <p style={{ marginTop: '20px', color: '#f59e0b', fontStyle: 'italic', fontSize: '0.9rem' }}>
                 "PM सूर्य घर योजना के तहत ₹78,000 तक की सब्सिडी प्राप्त करें - भारत सरकार"
               </p>
             </div>
           </div>
           <div className="footer-bottom">
-            <p>© 2026 Maa Agencies. All Rights Reserved. | Vaishali, Bihar</p>
+            <p>© 2026 EKOSYS. All Rights Reserved. | Vaishali, Bihar</p>
           </div>
         </div>
       </footer>

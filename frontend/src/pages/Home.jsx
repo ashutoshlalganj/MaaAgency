@@ -44,7 +44,7 @@ const faqs = [
   { q: 'What is the cost of a solar system in Bihar?', a: 'The cost varies by capacity. Generally, residential systems cost ₹55,000 to ₹65,000 per kW before subsidy. With PM Surya Ghar Yojana, you can get significant discounts.' },
   { q: 'How does PM Surya Ghar Yojana work?', a: 'Under this scheme, households can get up to ₹78,000 subsidy for installing on-grid rooftop solar systems, directly credited to their bank accounts.' },
   { q: 'Do you provide solar street lights?', a: 'Yes! We offer efficient outdoor lighting powered by the sun, perfect for roads, parks, and campuses.' },
-  { q: 'What other products does Maa Agencies offer?', a: 'Apart from solar systems, we provide Solar Water Heaters, Solar Atta Chakki, Online UPS, and high-performance Servo Stabilizers.' },
+  { q: 'What other products does EKOSYS offer?', a: 'Apart from solar systems, we provide Solar Water Heaters, Solar Atta Chakki, Online UPS, and high-performance Servo Stabilizers.' },
 ];
 
 export default function Home() {
@@ -58,12 +58,12 @@ export default function Home() {
         <div className="container">
           <div className="hero-grid">
             <div className="hero-content">
-              <h1><span className="highlight">Maa Agencies</span> – Powering a Greener Tomorrow</h1>
+              <h1><span className="highlight">EKOSYS</span> – Powering a Greener Tomorrow</h1>
               <p className="tagline">We deliver end-to-end solar EPC solutions tailored for industrial, commercial, and institutional needs. From design to commissioning, our expert team ensures reliable, high-performance solar systems with full compliance and on-time delivery.</p>
               
               <div style={{ background: 'rgba(245,158,11,.15)', padding: '15px', borderRadius: '10px', marginBottom: '20px', borderLeft: '4px solid #f59e0b' }}>
                 <p style={{ color: '#f59e0b', fontWeight: 'bold', fontSize: '1.1rem', margin: 0 }}>
-                  "PM सूर्य घर मुफ़्त बिजली योजना - 300 यूनिट तक मुफ़्त बिजली और ₹78,000 तक की सब्सिडी!" - भारत सरकार
+                  "PM सूर्य घर मुफ़्त बिजली योजना - 125 यूनिट तक मुफ़्त बिजली और ₹78,000 तक की सब्सिडी!" - भारत सरकार
                 </p>
               </div>
 
@@ -73,7 +73,7 @@ export default function Home() {
               </div>
             </div>
             <div className="hero-image">
-              <img src="/images/hero-banner.png" alt="Maa Agencies Solar Solutions" />
+              <img src="/images/hero-banner.png" alt="EKOSYS Solar Solutions" />
               <div className="hero-float f1">⚡ High Performance</div>
               <div className="hero-float f2">🌞 Green Energy</div>
             </div>
@@ -94,7 +94,7 @@ export default function Home() {
 
       <section className="section">
         <div className="container">
-          <h2 className="section-title">Why Choose <span className="highlight">Maa Agencies</span>?</h2>
+          <h2 className="section-title">Why Choose <span className="highlight">EKOSYS</span>?</h2>
           <p className="section-subtitle">Driven by innovation and backed by values of Integrity, Quality, and Customer Focus.</p>
           <div className="cards-grid">
             {[
@@ -150,7 +150,7 @@ export default function Home() {
               <div className="system-features">
                 {current.features.map((f, i) => <div className="system-feature" key={i}><span className="check">✓</span><span>{f}</span></div>)}
               </div>
-              <Link to="/solar-systems" className="btn btn-primary" style={{ marginTop: 20 }}>Learn More →</Link>
+              <Link to="/products" className="btn btn-primary" style={{ marginTop: 20 }}>Learn More →</Link>
             </div>
           </div>
         </div>
@@ -170,13 +170,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section" style={{ background: 'linear-gradient(135deg, #0f172a, #1e293b)', textAlign: 'center', color: '#fff' }}>
+      <section className="section cta-section" style={{ background: 'linear-gradient(135deg, #0f172a, #1e293b)', textAlign: 'center', color: '#fff' }}>
         <div className="container">
-          <h2 style={{ fontSize: '2.5rem', marginBottom: 16 }}>Ready to switch to Solar?</h2>
-          <p style={{ color: '#94a3b8', maxWidth: 600, margin: '0 auto 30px' }}>Join hundreds of satisfied customers in Bihar. Contact Maa Agencies today for a customized solar proposal.</p>
-          <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
+          <h2 className="cta-heading">Ready to switch to Solar?</h2>
+          <p className="cta-subtext">Join hundreds of satisfied customers in Bihar. Contact EKOSYS today for a customized solar proposal.</p>
+          <div className="cta-btns">
             <Link to="/contact" className="btn btn-primary">Contact Us Now →</Link>
-            <Link to="/calculator" className="btn btn-secondary">ROI Calculator</Link>
+            <Link to="/products" className="btn btn-secondary">Explore Products</Link>
           </div>
         </div>
       </section>

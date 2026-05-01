@@ -23,7 +23,7 @@ export default function Contact() {
       <section className="page-header">
         <div className="container">
           <h1><span className="highlight">Contact</span> Us</h1>
-          <p>Get in touch with Maa Agencies for free consultation, quotes, and support</p>
+          <p>Get in touch with EKOSYS for free consultation, quotes, and support</p>
         </div>
       </section>
       <section className="section">
@@ -47,11 +47,11 @@ export default function Contact() {
             <div className="contact-info-card">
               <h2 style={{ marginBottom: 24 }}>Get in Touch</h2>
               <div className="contact-info-item"><div className="icon">📞</div><div><h4>Phone</h4><p>8757686826</p></div></div>
-              <div className="contact-info-item"><div className="icon">✉</div><div><h4>Email</h4><p>reyesraghav@gmail.com</p></div></div>
-              <div className="contact-info-item"><div className="icon">📍</div><div><h4>Address</h4><p>Maa Agencies</p><p>Hajipur, Vaishali, Bihar</p></div></div>
+              <div className="contact-info-item"><div className="icon">✉</div><div><h4>Email</h4><p>ekosys.corp@gmail.com</p></div></div>
+              <div className="contact-info-item"><div className="icon">📍</div><div><h4>Address</h4><p>EKOSYS</p><p>Hajipur, Vaishali, Bihar</p></div></div>
               <div className="contact-info-item"><div className="icon">🕐</div><div><h4>Business Hours</h4><p>Mon - Sat: 9:00 AM - 7:00 PM</p><p>Sunday: Closed</p></div></div>
               <div style={{ background: 'rgba(245,158,11,.1)', borderRadius: 12, padding: 20, marginTop: 16 }}>
-                <p style={{ color: '#f59e0b', fontWeight: 600, fontStyle: 'italic' }}>🌟 "PM सूर्य घर मुफ़्त बिजली योजना - आज ही आवेदन करें और 300 यूनिट तक मुफ़्त बिजली पाएं।"</p>
+                <p style={{ color: '#f59e0b', fontWeight: 600, fontStyle: 'italic' }}>🌟 "PM सूर्य घर मुफ़्त बिजली योजना - आज ही आवेदन करें और 125 यूनिट तक मुफ़्त बिजली पाएं।"</p>
                 <p style={{ color: '#94a3b8', fontSize: '.85rem', marginTop: 8 }}>We assist you with the complete PM Surya Ghar Yojana application process from start to finish.</p>
               </div>
             </div>
